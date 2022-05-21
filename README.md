@@ -13,14 +13,14 @@ Nhóm 13:
       + Sử dụng Repository extend JpaRepository để thêm mới Product dựa theo phương thức save()
       + Quay trạng lại trang displayProduct để xem thông tin
 
-  + Lưu Trọng Nguyên: module Delete Product
+  + Lưu Trọng Nguyên: module Edit Product
       + Sử dụng Controller UpdateForm để hiện thị form cập nhất Product
       + Sử dụng ModelAttribute để lấy dữ liệu của form cập nhất Product
       + Lấy Product dựa theo id mà ModelAttribute gửi về dựa theo phương thức FindById của JpaRepository
       + Sử dụng Repository extend JpaRepository để cập nhật Product dựa theo phương thức save()
       + Quay trạng lại trang displayProduct để xem thông tin
 
-  + Trần Khắc Phong: module Edit Product 
+  + Trần Khắc Phong: module Delete Product 
       + Sử dụng Controller DeleteForm để hiện thị form xóa Product
       + Sử dụng PathVariable để lấy code của Product cần xóa
       + Sử dụng Repository extend JpaRepository để xóa Product dựa theo phương thức deleteById() 
